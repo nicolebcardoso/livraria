@@ -34,7 +34,7 @@
 					<td>${livro.editora.nome}</td>
 					<td>${livro.autor}</td>
 					<td>${livro.ano}</td>
-					<td>${livro.preco}</td>
+					<td>R$ ${livro.preco}</td>
 					<td><a href="/${requestScope.contextPath}/livros/edicao?id=${livro.id}">Edição</a>
 						&nbsp;&nbsp;&nbsp;&nbsp; <a
 						href="/${requestScope.contextPath}/livros/remocao?id=${livro.id}"
